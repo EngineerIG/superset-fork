@@ -91,6 +91,9 @@ export const GlobalStyles = () => (
           margin-right: 0;
         }
       }
+      ul.ant-dropdown-menu-vertical li:nth-child(4) {
+        display: none;
+      }
     `}
   />
 );
